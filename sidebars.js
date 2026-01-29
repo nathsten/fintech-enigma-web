@@ -26,12 +26,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'Porteføljeoversikt',
-      items: ['Portefoljeoversikt/Nordnetportefolje', 'Portefoljeoversikt/Fintech Enigma Tradingalgoritmer', 'Portefoljeoversikt/portefoljesammensetning']
+      items: ['Portefoljeoversikt/Nordnetportefolje', 'Portefoljeoversikt/Fintech Enigma Tradingalgoritmer']
     },
     {
       type: 'category',
       label: 'Aksjeanalyser',
-      items: ['Rapporter', 'Analyser', 'Portefoljeanalyse010124']
+      items: ['Rapporter', 'Analyser']
     },
     {
       type: 'category',
