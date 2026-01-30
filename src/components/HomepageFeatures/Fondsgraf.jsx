@@ -48,7 +48,7 @@ export default function Fondsgraf() {
         });
 
         // Forventer: { data: [ { dato: "2023-01-14", avkastning: 0.9 }, ... ] }
-        const rows = res.data?.data?.data ?? [];
+        const rows = res.data?.data?.avkastningListe ?? [];
 
 
         // 2) Lag variabler til plott
