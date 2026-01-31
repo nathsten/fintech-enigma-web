@@ -26,7 +26,11 @@ const sidebars = {
     {
       type: 'category',
       label: 'Porteføljeoversikt',
-      items: ['Portefoljeoversikt/Fintech Enigma Tradingalgoritmer']
+      items: [{type: 'doc', id: 'Portefoljeoversikt/Tradingalgoritmer', label: 'Tradingalgoritmer'},  {
+      type: 'doc',
+      id: 'Portefoljeoversikt/portefoljesammensetning',
+      label: 'Porteføljesammensetning',
+    },]
     },
     {
       type: 'category',
@@ -36,7 +40,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'For Studenter',
-      items: ['Bli_med_i_Fintech', 'ITØK Studieprogresjon'],
+      items: ['Bli_med_i_Fintech', {type: 'doc', id: 'Studieprogresjon', label: 'Studieprogresjon - ITØK'}],
     },
     {
       type: 'category',
@@ -51,7 +55,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'For Bedrifter',
-      items: ['Bedriftspresentasjon med Enigma1','Kontakt_oss'],
+      items: [{type: 'doc', id: 'bedriftspresentasjon', label: 'Bedriftspresentasjon'},'Kontakt_oss'],
     }
   ],
 };
