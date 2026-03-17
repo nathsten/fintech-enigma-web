@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/Rapporter">
-            Halvårsrapport 2025
+            Årsrapport 2025
           </Link>
         </div>
       </div>
